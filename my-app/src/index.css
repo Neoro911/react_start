@@ -48,3 +48,47 @@ ol, ul {
 .game-info {
   margin-left: 20px;
 }
+
+.game-info li {
+  margin-bottom: 4px;
+}
+
+.game-info li button {
+  border: none;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+}
+
+.game-info li.active button {
+  background-color: #cafc90;
+}
+
+.history {
+  margin-top: 20px;
+}
+
+.history-sort span {
+  cursor: pointer;
+  color: #333;
+  border-bottom: 1px dashed #333;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 4px;
+  -webkit-transition: 0.25s ease all;
+  -o-transition: 0.25s ease all;
+  transition: 0.25s ease all;
+}
+
+.history-sort span:hover {
+  border-color: transparent;
+}
+
+.history ol {
+  margin-top: 10px;
+}
+
+.square.active {
+  background-color: #cafc90;
+}
